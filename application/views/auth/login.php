@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Kid Care Systems</title>
+    <title>BRAND</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -33,7 +33,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="<?php echo base_url();?>index.php/"><?=$this->config->item('home_icon');?> Kid Care Systems</a>
+          <a class="navbar-brand" href="<?php echo base_url();?>index.php/"><?=$this->config->item('home_icon');?></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav pull-right">
@@ -93,11 +93,8 @@
 <footer>
 <div class="container-narrow" style="text-align: center;">
 	<p><sub><?php echo anchor('public/market', 'HOME'); ?> | <?php echo anchor('public/market/about', 'ABOUT'); ?> | <?php echo anchor('public/market/contact', 'CONTACT'); ?> | <?php echo anchor('public/cart', 'REGISTER'); ?> | <?php echo anchor('public/support', 'SUPPORT'); ?></sub></p>
-    <p><sub>&COPY; 2012 DefSteelDevelopment &TRADE; All Rights reserved</sub></p>
+    <p><sub>&COPY; 2012 BRAND &TRADE; All Rights reserved</sub></p>
     <p><sub>Page rendered in <strong>{elapsed_time}</strong> seconds</sub></p>
-    <div id="sitelock_shield_logo" class="fixed_btm" style="bottom:0;position:fixed;_position:absolute;right:0;">
-        <a href="https://www.sitelock.com/verify.php?site=kidcaresystems.com" onclick="window.open('https://www.sitelock.com/verify.php?site=kidcaresystems.com','SiteLock','width=600,height=600,left=160,top=170');return false;" ><img alt="malware removal and website security" title="SiteLock"  src="//shield.sitelock.com/shield/kidcaresystems.com"/></a>
-    </div>
 </div>
 </footer>
 </body>
